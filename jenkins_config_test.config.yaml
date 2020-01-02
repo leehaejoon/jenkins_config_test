@@ -1,4 +1,4 @@
-test:
-  - unittest: pytest src/test_*.py
-  - coverage: pytest --cov=src/
-  - CSW: pep8 src/*.py
+tests:
+  unittest: pytest src/test_*.py
+  coverage: pytest --cov=src/
+  CSW: pep8 src/*.py
